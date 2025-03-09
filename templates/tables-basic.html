@@ -1,0 +1,409 @@
+{% extends 'main_app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row">
+                <div class="col">
+                    <h3 class="page-title">Basic Tables</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'dashboard' %}">Dashboard</a></li>
+                        <li class="breadcrumb-item active">Basic Tables</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Basic Table</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>John</td>
+                                        <td>Doe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="bad0d5d2d4fadfc2dbd7cad6df94d9d5d7">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mary</td>
+                                        <td>Moe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="610c001318210419000c110d044f020e0c">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>July</td>
+                                        <td>Dooley</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="117b647d68517469707c617d743f727e7c">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Striped Rows</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>John</td>
+                                        <td>Doe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="741e1b1c1a34110c15190418115a171b19">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mary</td>
+                                        <td>Moe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="1e737f6c675e7b667f736e727b307d7173">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>July</td>
+                                        <td>Dooley</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="d5bfa0b9ac95b0adb4b8a5b9b0fbb6bab8">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Bordered Table</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>John</td>
+                                        <td>Doe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="fe94919690be9b869f938e929bd09d9193">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mary</td>
+                                        <td>Moe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="cca1adbeb58ca9b4ada1bca0a9e2afa3a1">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>July</td>
+                                        <td>Dooley</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="4d273821340d28352c203d2128632e2220">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Hover Rows</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>John</td>
+                                        <td>Doe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="214b4e494f614459404c514d440f424e4c">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mary</td>
+                                        <td>Moe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="553834272c15302d34382539307b363a38">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>July</td>
+                                        <td>Dooley</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="5e342b32271e3b263f332e323b703d3133">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Contextual Classes</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Email</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Default</td>
+                                        <td>Defaultson</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="3d59585b7d4e525058505c5451135e5250">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-primary">
+                                        <td>Primary</td>
+                                        <td>Doe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="bcd6d3d4d2fcd9c4ddd1ccd0d992dfd3d1">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <td>Secondary</td>
+                                        <td>Moe</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="7c111d0e053c19041d110c1019521f1311">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-success">
+                                        <td>Success</td>
+                                        <td>Dooley</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="107a657c69507568717d607c753e737f7d">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-danger">
+                                        <td>Danger</td>
+                                        <td>Refs</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="8fede0cfeaf7eee2ffe3eaa1ece0e2">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                        <td>Warning</td>
+                                        <td>Activeson</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="29484a5d694c51484459454c074a4644">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-info">
+                                        <td>Info</td>
+                                        <td>Activeson</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="f5949681b5908d9498859990db969a98">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-light">
+                                        <td>Light</td>
+                                        <td>Activeson</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="fb9a988fbb9e839a968b979ed5989496">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-dark">
+                                        <td>Dark</td>
+                                        <td>Activeson</td>
+                                        <td><a href="https://preschool.dreamguystech.com/cdn-cgi/l/email-protection"
+                                                class="__cf_email__"
+                                                data-cfemail="d2b3b1a692b7aab3bfa2beb7fcb1bdbf">[email&#160;protected]</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Responsive Tables</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-nowrap mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                        <th>Age</th>
+                                        <th>City</th>
+                                        <th>Country</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Anna</td>
+                                        <td>Pitt</td>
+                                        <td>35</td>
+                                        <td>New York</td>
+                                        <td>USA</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2023 <a href="https://yadutechnologies.com/" target="_blank">YADU TECHNOLOGIES</a></p>
+    </footer>
+
+</div>
+{% endblock content %}

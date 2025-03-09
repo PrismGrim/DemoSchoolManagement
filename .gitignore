@@ -1,0 +1,13 @@
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Extra folder
+source/
+
+
+# IDEs
+.idea/
+*.iml

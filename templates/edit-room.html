@@ -1,0 +1,85 @@
+{% extends 'main_app/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h3 class="page-title">Edit Rooms</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="hostel.html">Hostel</a></li>
+                        <li class="breadcrumb-item active">Edit Rooms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 class="form-title"><span>Room Information</span></h5>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Block</label>
+                                        <input type="text" class="form-control" value="A Block">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Room No</label>
+                                        <input type="text" class="form-control" value="101">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Room Type</label>
+                                        <select class="form-control">
+                                            <option>Normal</option>
+                                            <option>Normal</option>
+                                            <option>AC</option>
+                                            <option>Suite</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>No of Beds</label>
+                                        <input type="text" class="form-control" value="5">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Cose per Bed</label>
+                                        <input type="text" class="form-control" value="$25">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Availability</label>
+                                        <select class="form-control">
+                                            <option>Available</option>
+                                            <option>Available</option>
+                                            <option>Not Available</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
